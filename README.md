@@ -76,7 +76,7 @@ In a typical textile facility, energy is consumed across four major domains:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/energy-optimizer-textile.git
+https://github.com/AAFREEN-ZAHRA-KAZMI01/AI-SUSTAINABLE.git
 cd energy-optimizer-textile
 
 # Install dependencies
