@@ -1,0 +1,9 @@
+timestamp,process_type,occupancy,machines_active,external_temp,solar_available,energy_used_kwh,idle_energy_kwh,equipment_age,phantom_load,forecast,machine_efficiency,ai_recommendation,waste_reason
+2025-05-01 08:00:00,Spinning,75,10,30,High,50,5,5,False,Clear,0.85,,Low occupancy
+2025-05-01 09:00:00,Spinning,80,11,30,High,52,4,5,False,Clear,0.87,,Low occupancy
+2025-05-01 10:00:00,Weaving,60,8,32,Low,45,3,6,False,Clear,0.9,,Old machine
+2025-05-01 11:00:00,Weaving,55,9,33,Low,47,2,6,False,Clear,0.88,,Old machine
+2025-05-01 12:00:00,Dyeing,40,7,35,None,40,6,9,False,Clear,0.7,,HVAC misuse
+2025-05-01 13:00:00,Dyeing,35,6,36,None,38,5,9,False,Clear,0.72,,HVAC misuse
+2025-05-01 14:00:00,Finishing,50,5,34,Low,30,3,4,False,Clear,0.95,,Low occupancy
+2025-05-01 15:00:00,Finishing,45,5,33,Low,29,3,4,False,Clear,0.93,,Low occupancy

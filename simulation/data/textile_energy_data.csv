@@ -1,0 +1,721 @@
+timestamp,process_type,occupancy,machines_active,external_temp,solar_available,energy_used_kwh,idle_energy_kwh,equipment_age,phantom_load,forecast,machine_efficiency,ai_recommendation,waste_reason
+5/1/2025 0:00,Finishing,34,13,32,High,14.59,0,3,TRUE,Clear,0.85,Shutdown idle machines,HVAC misuse
+5/1/2025 1:00,Dyeing,11,8,23.45,None,7.9,2.37,4,TRUE,Cloudy,0.8,Shutdown idle machines,Old machine
+5/1/2025 2:00,Spinning,78,16,28.13,None,14.35,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/1/2025 3:00,Weaving,56,19,33.41,Low,17.74,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/1/2025 4:00,Dyeing,60,7,29.58,High,5.44,0,8,FALSE,Clear,0.6,,Low occupancy
+5/1/2025 5:00,Weaving,64,19,41.09,Low,17.42,0,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/1/2025 6:00,Finishing,36,20,34.5,High,22.86,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,Phantom load
+5/1/2025 7:00,Finishing,62,14,33.79,None,12.18,0,7,TRUE,Clear,0.65,Shutdown idle machines,Phantom load
+5/1/2025 8:00,Spinning,56,5,38.75,High,3.82,0,9,FALSE,Rain,0.55,,Low occupancy
+5/1/2025 9:00,Spinning,11,11,41.45,High,14.78,4.43,1,TRUE,Cloudy,0.95,Shutdown idle machines,Old machine
+5/1/2025 10:00,Weaving,80,9,41.47,High,9.55,0,5,FALSE,Clear,0.75,,HVAC misuse
+5/1/2025 11:00,Spinning,35,18,24.27,None,16.78,0,5,TRUE,Rain,0.75,Shutdown idle machines,HVAC misuse
+5/1/2025 12:00,Dyeing,10,16,38.38,None,13.28,3.98,8,FALSE,Rain,0.6,,HVAC misuse
+5/1/2025 13:00,Dyeing,97,4,25.7,None,3.77,0,5,FALSE,Clear,0.75,,Low occupancy
+5/1/2025 14:00,Weaving,46,7,29.11,High,7.23,0,4,FALSE,Clear,0.8,,Low occupancy
+5/1/2025 15:00,Finishing,63,14,30.51,High,16.44,0,2,FALSE,Cloudy,0.9,,HVAC misuse
+5/1/2025 16:00,Spinning,4,11,33.08,High,10.98,3.29,5,TRUE,Rain,0.75,Shutdown idle machines,HVAC misuse
+5/1/2025 17:00,Dyeing,5,9,21.27,None,10.37,3.11,1,FALSE,Rain,0.95,Avoid dyeing at low occupancy,Low occupancy
+5/1/2025 18:00,Weaving,25,18,34.03,None,19.3,0,4,FALSE,Cloudy,0.8,,Old machine
+5/1/2025 19:00,Dyeing,95,14,28.97,Low,16.25,0,2,TRUE,Cloudy,0.9,Shutdown idle machines,Low occupancy
+5/1/2025 20:00,Spinning,35,17,22.38,High,16.64,0,4,TRUE,Clear,0.8,Shutdown idle machines,HVAC misuse
+5/1/2025 21:00,Finishing,80,9,26.31,High,5.68,0,10,TRUE,Rain,0.5,Shutdown idle machines,HVAC misuse
+5/1/2025 22:00,Spinning,56,19,24.3,None,11.81,0,10,FALSE,Cloudy,0.5,,Phantom load
+5/1/2025 23:00,Finishing,39,14,22.99,High,11.19,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,Phantom load
+5/2/2025 0:00,Dyeing,8,6,28.75,Low,6.57,1.97,3,FALSE,Rain,0.85,Avoid dyeing at low occupancy,Low occupancy
+5/2/2025 1:00,Spinning,12,13,34.55,High,16.62,4.99,1,FALSE,Cloudy,0.95,,HVAC misuse
+5/2/2025 2:00,Finishing,51,3,37.64,None,2.89,0,6,FALSE,Rain,0.7,,HVAC misuse
+5/2/2025 3:00,Dyeing,20,4,26.14,Low,4.29,1.29,3,TRUE,Rain,0.85,Shutdown idle machines,HVAC misuse
+5/2/2025 4:00,Weaving,11,8,30.36,Low,5.74,1.72,9,TRUE,Clear,0.55,Shutdown idle machines,Low occupancy
+5/2/2025 5:00,Weaving,43,8,31.17,None,8.92,0,3,FALSE,Clear,0.85,,Low occupancy
+5/2/2025 6:00,Dyeing,19,10,27.32,Low,6.37,1.91,10,TRUE,Rain,0.5,Shutdown idle machines,Phantom load
+5/2/2025 7:00,Spinning,100,17,27.48,High,16.25,0,5,TRUE,Clear,0.75,Shutdown idle machines,HVAC misuse
+5/2/2025 8:00,Dyeing,81,4,20.03,High,4.08,0,3,FALSE,Cloudy,0.85,,Low occupancy
+5/2/2025 9:00,Dyeing,54,3,44.08,Low,2.38,0,9,TRUE,Rain,0.55,Shutdown idle machines,HVAC misuse
+5/2/2025 10:00,Dyeing,53,2,40.82,Low,1.97,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Phantom load
+5/2/2025 11:00,Spinning,37,17,35.95,None,19.65,0,3,TRUE,Rain,0.85,Shutdown idle machines,HVAC misuse
+5/2/2025 12:00,Spinning,44,15,39.88,Low,10.49,0,10,FALSE,Cloudy,0.5,,Old machine
+5/2/2025 13:00,Spinning,68,20,29.59,None,14.26,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,Old machine
+5/2/2025 14:00,Weaving,39,14,23.2,None,12.07,0,6,TRUE,Rain,0.7,Shutdown idle machines,Phantom load
+5/2/2025 15:00,Dyeing,30,14,34.74,High,9.43,0,10,TRUE,Clear,0.5,Shutdown idle machines,HVAC misuse
+5/2/2025 16:00,Finishing,88,19,41.65,None,21.53,0,4,FALSE,Clear,0.8,,Old machine
+5/2/2025 17:00,Dyeing,88,20,31.67,High,18.43,0,6,FALSE,Cloudy,0.7,,Old machine
+5/2/2025 18:00,Finishing,72,9,42.23,High,7.68,0,8,TRUE,Clear,0.6,Shutdown idle machines,Low occupancy
+5/2/2025 19:00,Spinning,40,10,40.08,None,8.4,0,8,FALSE,Rain,0.6,,Phantom load
+5/2/2025 20:00,Weaving,75,13,22.21,None,11.12,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/2/2025 21:00,Weaving,59,9,43.56,None,7.75,0,8,FALSE,Rain,0.6,,HVAC misuse
+5/2/2025 22:00,Spinning,76,14,21.14,Low,16.11,0,1,TRUE,Clear,0.95,Shutdown idle machines,HVAC misuse
+5/2/2025 23:00,Spinning,37,13,38.88,High,15.35,0,3,FALSE,Clear,0.85,,Old machine
+5/3/2025 0:00,Finishing,89,15,35.3,High,12.18,0,8,FALSE,Cloudy,0.6,,Old machine
+5/3/2025 1:00,Dyeing,93,20,36.82,High,15.05,0,9,FALSE,Rain,0.55,,HVAC misuse
+5/3/2025 2:00,Spinning,69,5,44.82,None,6.88,0,1,FALSE,Rain,0.95,,Low occupancy
+5/3/2025 3:00,Finishing,59,8,20.11,None,5.29,0,9,TRUE,Rain,0.55,Shutdown idle machines,HVAC misuse
+5/3/2025 4:00,Finishing,51,9,30.45,High,8.81,0,5,TRUE,Clear,0.75,Shutdown idle machines,HVAC misuse
+5/3/2025 5:00,Spinning,11,7,36.38,High,6.21,1.86,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/3/2025 6:00,Dyeing,23,4,40.35,None,4.77,0,3,TRUE,Clear,0.85,Shutdown idle machines,Old machine
+5/3/2025 7:00,Finishing,20,10,29.61,None,8.42,2.53,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/3/2025 8:00,Spinning,23,6,28.59,Low,3.86,0,10,FALSE,Clear,0.5,,Phantom load
+5/3/2025 9:00,Weaving,74,3,26.07,High,2.27,0,8,TRUE,Rain,0.6,Shutdown idle machines,Low occupancy
+5/3/2025 10:00,Weaving,14,4,22.62,High,4.41,1.32,2,FALSE,Rain,0.9,,HVAC misuse
+5/3/2025 11:00,Dyeing,81,7,30.13,Low,8.2,0,2,FALSE,Clear,0.9,,HVAC misuse
+5/3/2025 12:00,Finishing,64,14,30.22,High,15.5,0,3,FALSE,Clear,0.85,,Low occupancy
+5/3/2025 13:00,Finishing,81,12,22.68,Low,8.83,0,8,TRUE,Rain,0.6,Shutdown idle machines,Old machine
+5/3/2025 14:00,Spinning,26,5,38.09,High,4.49,0,7,TRUE,Rain,0.65,Shutdown idle machines,Old machine
+5/3/2025 15:00,Spinning,44,12,29.74,High,10.9,0,6,TRUE,Clear,0.7,Shutdown idle machines,HVAC misuse
+5/3/2025 16:00,Dyeing,32,2,34.17,None,2.42,0,2,TRUE,Clear,0.9,Shutdown idle machines,Old machine
+5/3/2025 17:00,Spinning,2,7,24.98,Low,8.31,2.49,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/3/2025 18:00,Spinning,55,10,31.2,High,10.5,0,4,TRUE,Clear,0.8,Shutdown idle machines,Low occupancy
+5/3/2025 19:00,Dyeing,52,17,32.56,High,21.41,0,1,FALSE,Clear,0.95,,Old machine
+5/3/2025 20:00,Spinning,10,18,31.96,Low,14.25,4.27,8,TRUE,Rain,0.6,Shutdown idle machines,Low occupancy
+5/3/2025 21:00,Finishing,5,2,32.99,High,2.26,0.68,3,FALSE,Clear,0.85,,Old machine
+5/3/2025 22:00,Weaving,59,19,42.11,None,20.25,0,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/3/2025 23:00,Weaving,76,15,21.98,None,12.81,0,6,TRUE,Rain,0.7,Shutdown idle machines,HVAC misuse
+5/4/2025 0:00,Dyeing,83,8,32.88,Low,7.97,0,5,TRUE,Rain,0.75,Shutdown idle machines,Old machine
+5/4/2025 1:00,Weaving,91,20,37.91,Low,13.79,0,10,FALSE,Rain,0.5,,Phantom load
+5/4/2025 2:00,Finishing,13,13,40.1,None,10.02,3.01,9,FALSE,Clear,0.55,,Phantom load
+5/4/2025 3:00,Dyeing,56,18,33.56,None,21.64,0,2,TRUE,Cloudy,0.9,Shutdown idle machines,Phantom load
+5/4/2025 4:00,Weaving,50,2,36.93,Low,2.19,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/4/2025 5:00,Finishing,48,15,23.25,None,17.56,0,1,FALSE,Cloudy,0.95,,Phantom load
+5/4/2025 6:00,Finishing,39,18,21.35,High,16.38,0,5,FALSE,Cloudy,0.75,,Old machine
+5/4/2025 7:00,Dyeing,5,9,43.55,None,11.63,3.49,2,FALSE,Rain,0.9,Avoid dyeing at low occupancy,Phantom load
+5/4/2025 8:00,Weaving,16,7,28.63,Low,8.55,2.56,1,FALSE,Rain,0.95,,Phantom load
+5/4/2025 9:00,Finishing,81,6,26.37,None,3.79,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Old machine
+5/4/2025 10:00,Dyeing,26,6,36.57,None,6.15,0,5,TRUE,Rain,0.75,Shutdown idle machines,Old machine
+5/4/2025 11:00,Weaving,89,8,41.28,High,9.04,0,4,TRUE,Rain,0.8,Shutdown idle machines,Low occupancy
+5/4/2025 12:00,Weaving,78,8,26.66,None,6.08,0,8,FALSE,Rain,0.6,,Phantom load
+5/4/2025 13:00,Spinning,8,20,42.23,Low,17.07,5.12,8,FALSE,Cloudy,0.6,,HVAC misuse
+5/4/2025 14:00,Weaving,81,10,27.1,Low,6.35,0,10,TRUE,Rain,0.5,Shutdown idle machines,HVAC misuse
+5/4/2025 15:00,Spinning,65,8,32.57,None,5.83,0,9,FALSE,Cloudy,0.55,,Phantom load
+5/4/2025 16:00,Weaving,29,20,30.22,High,14.32,0,9,FALSE,Cloudy,0.55,,Low occupancy
+5/4/2025 17:00,Weaving,50,4,34.83,High,3.51,0,7,FALSE,Cloudy,0.65,,Low occupancy
+5/4/2025 18:00,Finishing,8,15,30.12,High,9.76,2.93,10,TRUE,Clear,0.5,Shutdown idle machines,Old machine
+5/4/2025 19:00,Dyeing,71,9,35.98,Low,10.4,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/4/2025 20:00,Weaving,70,17,21.13,Low,17.5,0,3,FALSE,Clear,0.85,,Old machine
+5/4/2025 21:00,Dyeing,94,2,24.06,Low,2.23,0,2,FALSE,Rain,0.9,,Old machine
+5/4/2025 22:00,Finishing,57,5,40.14,Low,3.85,0,9,FALSE,Clear,0.55,,Phantom load
+5/4/2025 23:00,Finishing,54,10,31.41,None,12.48,0,1,FALSE,Rain,0.95,,HVAC misuse
+5/5/2025 0:00,Spinning,40,16,25.18,Low,17.03,0,3,TRUE,Clear,0.85,Shutdown idle machines,Old machine
+5/5/2025 1:00,Weaving,83,20,26.18,High,23.98,0,1,TRUE,Rain,0.95,Shutdown idle machines,Phantom load
+5/5/2025 2:00,Spinning,97,7,21.71,High,6.82,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/5/2025 3:00,Weaving,23,11,35.63,High,11.94,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/5/2025 4:00,Finishing,9,2,32,Low,2.24,0.67,3,FALSE,Clear,0.85,,HVAC misuse
+5/5/2025 5:00,Finishing,77,17,36.37,High,16.23,0,6,FALSE,Clear,0.7,,Phantom load
+5/5/2025 6:00,Spinning,79,13,42.52,High,14.82,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/5/2025 7:00,Finishing,22,5,35.71,High,3.39,0,10,FALSE,Clear,0.5,,Low occupancy
+5/5/2025 8:00,Spinning,87,10,39.7,Low,12.57,0,2,FALSE,Rain,0.9,,Low occupancy
+5/5/2025 9:00,Spinning,18,10,40.28,High,13.33,4,1,FALSE,Cloudy,0.95,,Phantom load
+5/5/2025 10:00,Dyeing,45,5,38.93,None,4.17,0,8,TRUE,Clear,0.6,Shutdown idle machines,Low occupancy
+5/5/2025 11:00,Weaving,46,20,44.78,None,17.37,0,8,FALSE,Clear,0.6,,Old machine
+5/5/2025 12:00,Finishing,95,20,36.16,None,23.15,0,3,FALSE,Rain,0.85,,Phantom load
+5/5/2025 13:00,Finishing,14,14,32.59,Low,11.14,3.34,8,FALSE,Clear,0.6,,HVAC misuse
+5/5/2025 14:00,Finishing,0,9,38.11,Low,8.08,2.42,7,TRUE,Rain,0.65,Shutdown idle machines,Old machine
+5/5/2025 15:00,Finishing,97,10,33.53,None,8.01,0,8,FALSE,Clear,0.6,,Low occupancy
+5/5/2025 16:00,Weaving,19,10,33.15,Low,8.65,2.6,7,TRUE,Rain,0.65,Shutdown idle machines,Low occupancy
+5/5/2025 17:00,Weaving,16,11,26.68,Low,11.84,3.55,3,TRUE,Cloudy,0.85,Shutdown idle machines,Low occupancy
+5/5/2025 18:00,Weaving,49,9,23.81,Low,6.13,0,9,TRUE,Rain,0.55,Shutdown idle machines,Low occupancy
+5/5/2025 19:00,Finishing,99,7,26.85,None,7.99,0,2,FALSE,Clear,0.9,,HVAC misuse
+5/5/2025 20:00,Weaving,46,16,41.49,Low,19.24,0,3,FALSE,Clear,0.85,,Low occupancy
+5/5/2025 21:00,Spinning,85,16,22.88,Low,16.71,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/5/2025 22:00,Finishing,60,8,44.41,Low,6.93,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/5/2025 23:00,Finishing,5,17,41.39,High,19.23,5.77,4,TRUE,Clear,0.8,Shutdown idle machines,Low occupancy
+5/6/2025 0:00,Weaving,34,20,40.28,Low,25.25,0,2,FALSE,Cloudy,0.9,,Low occupancy
+5/6/2025 1:00,Finishing,28,3,41.75,Low,3.4,0,4,FALSE,Cloudy,0.8,,HVAC misuse
+5/6/2025 2:00,Weaving,49,6,25.86,High,6.04,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,HVAC misuse
+5/6/2025 3:00,Finishing,86,15,32.27,None,13.89,0,6,TRUE,Rain,0.7,Shutdown idle machines,Low occupancy
+5/6/2025 4:00,Weaving,1,10,20.01,Low,8.4,2.52,6,FALSE,Rain,0.7,,HVAC misuse
+5/6/2025 5:00,Weaving,63,13,43.51,None,14.93,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/6/2025 6:00,Weaving,13,9,21.25,Low,10.37,3.11,1,FALSE,Clear,0.95,,Old machine
+5/6/2025 7:00,Dyeing,76,8,40.31,None,6.17,0,9,FALSE,Rain,0.55,,Old machine
+5/6/2025 8:00,Dyeing,90,14,40.33,High,10.81,0,9,TRUE,Rain,0.55,Shutdown idle machines,Low occupancy
+5/6/2025 9:00,Spinning,16,10,32.12,High,11.89,3.57,2,FALSE,Clear,0.9,,Low occupancy
+5/6/2025 10:00,Dyeing,20,14,23.66,Low,12.12,3.64,6,FALSE,Clear,0.7,,Low occupancy
+5/6/2025 11:00,Weaving,41,3,20.16,None,3.42,0,1,TRUE,Clear,0.95,Shutdown idle machines,HVAC misuse
+5/6/2025 12:00,Finishing,0,14,39.09,None,12.66,3.8,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/6/2025 13:00,Dyeing,5,7,21.48,High,5.95,1.78,6,TRUE,Cloudy,0.7,Avoid dyeing at low occupancy,Old machine
+5/6/2025 14:00,Weaving,82,19,41.66,Low,21.53,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/6/2025 15:00,Dyeing,61,3,39.45,Low,2.51,0,8,FALSE,Rain,0.6,,Old machine
+5/6/2025 16:00,Dyeing,85,11,30.01,Low,12.87,0,2,FALSE,Clear,0.9,,Low occupancy
+5/6/2025 17:00,Finishing,37,10,36.4,Low,11.59,0,3,TRUE,Clear,0.85,Shutdown idle machines,Old machine
+5/6/2025 18:00,Spinning,96,14,40.98,Low,18.75,0,1,FALSE,Cloudy,0.95,,HVAC misuse
+5/6/2025 19:00,Spinning,26,5,37.48,High,3.78,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,Phantom load
+5/6/2025 20:00,Spinning,10,14,20.04,Low,15.97,4.79,1,FALSE,Clear,0.95,,Phantom load
+5/6/2025 21:00,Spinning,72,13,25.58,High,13.06,0,4,TRUE,Clear,0.8,Shutdown idle machines,HVAC misuse
+5/6/2025 22:00,Dyeing,10,7,30.57,High,8.23,2.47,2,FALSE,Clear,0.9,,Old machine
+5/6/2025 23:00,Dyeing,39,8,30.14,None,7.29,0,6,TRUE,Rain,0.7,Shutdown idle machines,Old machine
+5/7/2025 0:00,Finishing,25,12,25.62,None,12.06,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Old machine
+5/7/2025 1:00,Spinning,71,12,40.12,High,11.77,0,6,FALSE,Rain,0.7,,HVAC misuse
+5/7/2025 2:00,Spinning,41,11,36.89,Low,12.8,0,3,FALSE,Rain,0.85,,Old machine
+5/7/2025 3:00,Finishing,0,11,22.95,Low,8.79,2.64,7,TRUE,Rain,0.65,Shutdown idle machines,Low occupancy
+5/7/2025 4:00,Dyeing,28,14,41.56,High,10.9,0,9,FALSE,Cloudy,0.55,,Phantom load
+5/7/2025 5:00,Dyeing,13,7,23.45,None,6.05,1.81,6,TRUE,Clear,0.7,Shutdown idle machines,HVAC misuse
+5/7/2025 6:00,Dyeing,78,17,32.56,Low,14.65,0,7,FALSE,Cloudy,0.65,,Phantom load
+5/7/2025 7:00,Dyeing,8,16,38.01,Low,14.35,4.3,7,TRUE,Cloudy,0.65,Avoid dyeing at low occupancy,Old machine
+5/7/2025 8:00,Weaving,59,4,44.01,High,5.47,0,1,TRUE,Rain,0.95,Shutdown idle machines,Low occupancy
+5/7/2025 9:00,Finishing,31,12,28.94,None,11.6,0,5,TRUE,Clear,0.75,Shutdown idle machines,HVAC misuse
+5/7/2025 10:00,Finishing,83,13,34.51,High,10.49,0,8,FALSE,Clear,0.6,,Phantom load
+5/7/2025 11:00,Dyeing,13,5,43.53,High,3.95,1.19,9,TRUE,Clear,0.55,Shutdown idle machines,Old machine
+5/7/2025 12:00,Weaving,18,3,20.16,Low,2.34,0.7,7,TRUE,Clear,0.65,Shutdown idle machines,HVAC misuse
+5/7/2025 13:00,Dyeing,51,11,40.87,None,12.4,0,4,TRUE,Clear,0.8,Shutdown idle machines,Phantom load
+5/7/2025 14:00,Dyeing,44,2,20.03,None,1.68,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/7/2025 15:00,Dyeing,16,2,41.32,High,2.4,0.72,3,FALSE,Clear,0.85,,HVAC misuse
+5/7/2025 16:00,Dyeing,11,14,37.9,None,16.41,4.92,3,FALSE,Rain,0.85,,Phantom load
+5/7/2025 17:00,Spinning,96,11,22.89,High,9.46,0,6,TRUE,Clear,0.7,Shutdown idle machines,Phantom load
+5/7/2025 18:00,Weaving,85,16,41.5,Low,11.32,0,10,FALSE,Clear,0.5,,Phantom load
+5/7/2025 19:00,Spinning,27,7,23.63,Low,5.63,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,HVAC misuse
+5/7/2025 20:00,Spinning,12,8,29.42,Low,8.8,2.64,3,FALSE,Cloudy,0.85,,Phantom load
+5/7/2025 21:00,Spinning,77,14,35.25,High,12.31,0,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/7/2025 22:00,Spinning,44,7,23.34,High,6.04,0,6,TRUE,Rain,0.7,Shutdown idle machines,Old machine
+5/7/2025 23:00,Finishing,24,9,35.84,High,7.34,0,8,FALSE,Rain,0.6,,Low occupancy
+5/8/2025 0:00,Weaving,6,15,27.37,High,17.19,5.16,2,TRUE,Clear,0.9,Shutdown idle machines,HVAC misuse
+5/8/2025 1:00,Weaving,66,9,44.12,Low,7.78,0,8,FALSE,Cloudy,0.6,,Low occupancy
+5/8/2025 2:00,Spinning,5,18,32.02,None,16.64,4.99,6,TRUE,Clear,0.7,Shutdown idle machines,Old machine
+5/8/2025 3:00,Dyeing,68,5,27.85,None,4.79,0,5,FALSE,Clear,0.75,,Phantom load
+5/8/2025 4:00,Finishing,69,18,41.06,None,15.23,0,8,FALSE,Cloudy,0.6,,Low occupancy
+5/8/2025 5:00,Spinning,8,5,24.65,High,4.99,1.5,4,FALSE,Clear,0.8,,Old machine
+5/8/2025 6:00,Weaving,29,9,20.06,None,6.48,0,8,FALSE,Cloudy,0.6,,Low occupancy
+5/8/2025 7:00,Weaving,71,11,43.24,Low,11.82,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Phantom load
+5/8/2025 8:00,Dyeing,42,10,33.52,None,9.35,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/8/2025 9:00,Weaving,54,12,40.34,High,9.26,0,9,FALSE,Cloudy,0.55,,Phantom load
+5/8/2025 10:00,Finishing,60,20,30.16,High,24.73,0,1,FALSE,Rain,0.95,,Low occupancy
+5/8/2025 11:00,Finishing,0,5,43.36,Low,4.3,1.29,8,TRUE,Cloudy,0.6,Shutdown idle machines,HVAC misuse
+5/8/2025 12:00,Spinning,45,7,24.2,None,6.96,0,4,TRUE,Clear,0.8,Shutdown idle machines,Old machine
+5/8/2025 13:00,Weaving,61,8,44.61,Low,10.99,0,1,FALSE,Cloudy,0.95,,Old machine
+5/8/2025 14:00,Weaving,17,19,42.83,None,13.57,4.07,10,FALSE,Clear,0.5,,HVAC misuse
+5/8/2025 15:00,Dyeing,87,11,25.83,None,9,0,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/8/2025 16:00,Dyeing,60,14,24.66,None,11.34,0,7,FALSE,Cloudy,0.65,,Old machine
+5/8/2025 17:00,Spinning,35,5,44.38,Low,5.78,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Old machine
+5/8/2025 18:00,Finishing,60,18,31.1,None,11.8,0,10,FALSE,Clear,0.5,,HVAC misuse
+5/8/2025 19:00,Finishing,99,12,35.1,High,12.16,0,5,FALSE,Cloudy,0.75,,Low occupancy
+5/8/2025 20:00,Spinning,11,16,39.94,High,11.2,3.36,10,FALSE,Clear,0.5,,Old machine
+5/8/2025 21:00,Finishing,70,3,43.67,None,3.02,0,6,FALSE,Cloudy,0.7,,Phantom load
+5/8/2025 22:00,Finishing,34,17,34.23,None,12.55,0,9,TRUE,Clear,0.55,Shutdown idle machines,Phantom load
+5/8/2025 23:00,Spinning,49,6,33.06,None,5.99,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,HVAC misuse
+5/9/2025 0:00,Dyeing,16,3,30.46,High,2.54,0.76,7,TRUE,Clear,0.65,Shutdown idle machines,Old machine
+5/9/2025 1:00,Finishing,22,14,27.87,None,13.43,0,5,TRUE,Rain,0.75,Shutdown idle machines,Phantom load
+5/9/2025 2:00,Finishing,68,20,20.7,Low,16.9,0,6,TRUE,Rain,0.7,Shutdown idle machines,Low occupancy
+5/9/2025 3:00,Dyeing,1,5,28.22,Low,3.53,1.06,9,TRUE,Rain,0.55,Avoid dyeing at low occupancy,HVAC misuse
+5/9/2025 4:00,Weaving,78,12,37.94,None,11.59,0,6,TRUE,Clear,0.7,Shutdown idle machines,Old machine
+5/9/2025 5:00,Finishing,20,14,30.57,None,15.54,4.66,3,FALSE,Clear,0.85,,Phantom load
+5/9/2025 6:00,Spinning,15,19,32.71,None,23.95,7.18,1,FALSE,Clear,0.95,,Phantom load
+5/9/2025 7:00,Finishing,55,6,32.57,High,5.57,0,6,FALSE,Clear,0.7,,Low occupancy
+5/9/2025 8:00,Finishing,24,2,26.53,None,2.28,0,2,TRUE,Cloudy,0.9,Shutdown idle machines,HVAC misuse
+5/9/2025 9:00,Dyeing,53,15,27,High,15.24,0,4,FALSE,Cloudy,0.8,,HVAC misuse
+5/9/2025 10:00,Weaving,52,11,26.08,Low,9.01,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,Phantom load
+5/9/2025 11:00,Weaving,68,18,30.12,High,15.22,0,7,TRUE,Clear,0.65,Shutdown idle machines,Old machine
+5/9/2025 12:00,Weaving,1,14,24.71,Low,15.71,4.71,2,TRUE,Clear,0.9,Shutdown idle machines,Old machine
+5/9/2025 13:00,Finishing,97,10,22.55,Low,10.42,0,3,FALSE,Rain,0.85,,Low occupancy
+5/9/2025 14:00,Weaving,24,19,38.49,High,25,0,1,FALSE,Clear,0.95,,Phantom load
+5/9/2025 15:00,Weaving,42,3,35.61,High,3.46,0,3,FALSE,Clear,0.85,,HVAC misuse
+5/9/2025 16:00,Weaving,88,3,35.49,Low,3.46,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,Phantom load
+5/9/2025 17:00,Weaving,38,19,35.72,Low,16.76,0,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/9/2025 18:00,Dyeing,88,4,43.77,None,5.18,0,2,TRUE,Rain,0.9,Shutdown idle machines,Low occupancy
+5/9/2025 19:00,Spinning,5,14,38.65,Low,15.53,4.66,4,FALSE,Cloudy,0.8,,HVAC misuse
+5/9/2025 20:00,Spinning,58,19,34.78,None,15.37,0,8,TRUE,Rain,0.6,Shutdown idle machines,Old machine
+5/9/2025 21:00,Spinning,84,15,27.18,High,10.49,0,9,TRUE,Rain,0.55,Shutdown idle machines,Old machine
+5/9/2025 22:00,Spinning,89,20,24.85,High,13.73,0,9,FALSE,Clear,0.55,,Old machine
+5/9/2025 23:00,Spinning,34,15,24.8,Low,12.17,0,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/10/2025 0:00,Dyeing,70,7,20.03,High,6.3,0,5,FALSE,Cloudy,0.75,,Low occupancy
+5/10/2025 1:00,Weaving,73,8,38.09,High,9.39,0,3,FALSE,Clear,0.85,,Phantom load
+5/10/2025 2:00,Weaving,66,4,22.77,Low,2.95,0,8,TRUE,Clear,0.6,Shutdown idle machines,HVAC misuse
+5/10/2025 3:00,Spinning,22,15,39.31,High,18.81,0,2,TRUE,Clear,0.9,Shutdown idle machines,HVAC misuse
+5/10/2025 4:00,Spinning,92,5,44.72,High,6.87,0,1,FALSE,Cloudy,0.95,,Old machine
+5/10/2025 5:00,Weaving,67,5,35.18,None,3.38,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Low occupancy
+5/10/2025 6:00,Spinning,8,12,35.22,High,15.41,4.62,1,FALSE,Clear,0.95,,Old machine
+5/10/2025 7:00,Spinning,83,6,22.63,None,6.99,0,1,FALSE,Clear,0.95,,Old machine
+5/10/2025 8:00,Dyeing,37,9,33.44,None,10.21,0,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/10/2025 9:00,Spinning,87,10,21.83,High,8.53,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Old machine
+5/10/2025 10:00,Finishing,16,8,32.5,Low,7.95,2.38,5,FALSE,Cloudy,0.75,,Old machine
+5/10/2025 11:00,Spinning,34,16,31.12,High,19.93,0,1,FALSE,Rain,0.95,,Low occupancy
+5/10/2025 12:00,Spinning,99,14,42.11,High,14.92,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Low occupancy
+5/10/2025 13:00,Weaving,71,5,22.82,High,3.07,0,10,FALSE,Clear,0.5,,Phantom load
+5/10/2025 14:00,Finishing,48,6,25.91,None,6.42,0,3,FALSE,Rain,0.85,,Phantom load
+5/10/2025 15:00,Weaving,95,10,20.67,Low,9.05,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,HVAC misuse
+5/10/2025 16:00,Spinning,19,4,42.08,Low,4.26,1.28,5,FALSE,Cloudy,0.75,,Old machine
+5/10/2025 17:00,Spinning,45,8,35.42,High,8.13,0,5,FALSE,Clear,0.75,,HVAC misuse
+5/10/2025 18:00,Weaving,50,5,28.36,Low,5.13,0,4,FALSE,Clear,0.8,,Low occupancy
+5/10/2025 19:00,Dyeing,26,5,21.05,High,4.84,0,4,FALSE,Clear,0.8,,Old machine
+5/10/2025 20:00,Weaving,22,13,44.47,Low,9.39,0,10,FALSE,Rain,0.5,,HVAC misuse
+5/10/2025 21:00,Dyeing,4,5,32.27,Low,3.31,0.99,10,TRUE,Clear,0.5,Avoid dyeing at low occupancy,Old machine
+5/10/2025 22:00,Dyeing,73,18,37.65,High,14.87,0,8,FALSE,Rain,0.6,,HVAC misuse
+5/10/2025 23:00,Dyeing,41,17,32.93,Low,15.82,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Low occupancy
+5/11/2025 0:00,Spinning,0,7,28.16,High,6.28,1.88,6,TRUE,Cloudy,0.7,Shutdown idle machines,HVAC misuse
+5/11/2025 1:00,Dyeing,70,15,27.83,None,11.5,0,8,FALSE,Clear,0.6,,Phantom load
+5/11/2025 2:00,Weaving,61,16,33.51,High,16.02,0,5,TRUE,Rain,0.75,Shutdown idle machines,Phantom load
+5/11/2025 3:00,Weaving,60,12,36.89,None,9.04,0,9,FALSE,Cloudy,0.55,,Old machine
+5/11/2025 4:00,Finishing,6,20,41.56,Low,21.23,6.37,5,FALSE,Clear,0.75,,Phantom load
+5/11/2025 5:00,Weaving,40,16,33.62,High,13.9,0,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/11/2025 6:00,Spinning,92,9,43.63,Low,8.4,0,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/11/2025 7:00,Finishing,44,9,29.64,High,10.5,0,2,FALSE,Cloudy,0.9,,Phantom load
+5/11/2025 8:00,Dyeing,83,12,33.11,None,11.98,0,5,FALSE,Cloudy,0.75,,Old machine
+5/11/2025 9:00,Dyeing,2,14,39.85,Low,13.71,4.11,6,TRUE,Cloudy,0.7,Avoid dyeing at low occupancy,Old machine
+5/11/2025 10:00,Weaving,93,19,43.7,Low,25.94,0,1,FALSE,Rain,0.95,,Phantom load
+5/11/2025 11:00,Spinning,47,7,25.63,None,6.16,0,6,FALSE,Clear,0.7,,Phantom load
+5/11/2025 12:00,Weaving,2,11,44.89,None,8.77,2.63,9,FALSE,Cloudy,0.55,,Low occupancy
+5/11/2025 13:00,Weaving,54,14,23.69,None,12.12,0,6,FALSE,Clear,0.7,,Old machine
+5/11/2025 14:00,Spinning,0,4,37.27,Low,3.57,1.07,7,TRUE,Clear,0.65,Shutdown idle machines,HVAC misuse
+5/11/2025 15:00,Weaving,7,15,38.35,High,10.38,3.11,10,FALSE,Cloudy,0.5,,Phantom load
+5/11/2025 16:00,Dyeing,83,15,20.12,Low,15.31,0,3,FALSE,Clear,0.85,,Low occupancy
+5/11/2025 17:00,Finishing,9,9,43.38,None,9.68,2.9,5,TRUE,Clear,0.75,Shutdown idle machines,HVAC misuse
+5/11/2025 18:00,Weaving,20,18,38.09,High,12.43,3.73,10,FALSE,Cloudy,0.5,,Old machine
+5/11/2025 19:00,Weaving,63,17,23.81,None,10.52,0,10,TRUE,Rain,0.5,Shutdown idle machines,Low occupancy
+5/11/2025 20:00,Dyeing,82,14,44.07,High,14.12,0,6,FALSE,Rain,0.7,,Low occupancy
+5/11/2025 21:00,Dyeing,25,16,34.44,High,17.21,0,4,FALSE,Clear,0.8,,Old machine
+5/11/2025 22:00,Finishing,20,6,42.01,Low,6.39,1.92,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/11/2025 23:00,Dyeing,48,9,39.17,High,9.39,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,HVAC misuse
+5/12/2025 0:00,Weaving,3,16,31.21,None,12.6,3.78,8,TRUE,Clear,0.6,Shutdown idle machines,Low occupancy
+5/12/2025 1:00,Weaving,49,7,41.93,Low,7.45,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Phantom load
+5/12/2025 2:00,Finishing,54,6,33.76,None,7.22,0,2,TRUE,Rain,0.9,Shutdown idle machines,Low occupancy
+5/12/2025 3:00,Finishing,65,19,33.42,Low,16.48,0,7,FALSE,Cloudy,0.65,,HVAC misuse
+5/12/2025 4:00,Spinning,41,13,37.31,Low,16.96,0,1,FALSE,Clear,0.95,,HVAC misuse
+5/12/2025 5:00,Weaving,89,7,32.17,None,8.79,0,1,FALSE,Rain,0.95,,Old machine
+5/12/2025 6:00,Dyeing,18,13,39.16,None,10.85,3.25,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/12/2025 7:00,Finishing,26,13,23.77,High,13.68,0,3,FALSE,Clear,0.85,,Phantom load
+5/12/2025 8:00,Dyeing,32,10,31.96,High,10.56,0,4,TRUE,Rain,0.8,Shutdown idle machines,Low occupancy
+5/12/2025 9:00,Weaving,22,12,40.8,None,13.52,0,4,FALSE,Rain,0.8,,Low occupancy
+5/12/2025 10:00,Dyeing,23,10,27.51,High,8.93,0,6,FALSE,Cloudy,0.7,,Old machine
+5/12/2025 11:00,Dyeing,33,19,21.61,High,18.48,0,4,TRUE,Rain,0.8,Shutdown idle machines,Phantom load
+5/12/2025 12:00,Spinning,77,10,20.2,High,10.22,0,3,TRUE,Rain,0.85,Shutdown idle machines,HVAC misuse
+5/12/2025 13:00,Finishing,9,9,37.32,Low,8.65,2.6,6,TRUE,Rain,0.7,Shutdown idle machines,Phantom load
+5/12/2025 14:00,Dyeing,23,10,37.11,Low,10.97,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/12/2025 15:00,Finishing,32,18,20.9,Low,10.88,0,10,FALSE,Cloudy,0.5,,Low occupancy
+5/12/2025 16:00,Finishing,35,2,21.73,High,1.83,0,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/12/2025 17:00,Finishing,51,4,27.66,High,4.34,0,3,TRUE,Rain,0.85,Shutdown idle machines,Phantom load
+5/12/2025 18:00,Weaving,20,16,25.4,High,10.03,3.01,10,TRUE,Rain,0.5,Shutdown idle machines,HVAC misuse
+5/12/2025 19:00,Dyeing,57,5,30.54,High,4.9,0,5,FALSE,Cloudy,0.75,,Old machine
+5/12/2025 20:00,Dyeing,95,13,26.08,None,14.75,0,2,FALSE,Cloudy,0.9,,HVAC misuse
+5/12/2025 21:00,Weaving,60,8,22.13,None,7.33,0,5,TRUE,Rain,0.75,Shutdown idle machines,Old machine
+5/12/2025 22:00,Dyeing,91,2,37.15,None,2.61,0,1,FALSE,Rain,0.95,,Old machine
+5/12/2025 23:00,Dyeing,6,20,23.72,High,19.8,5.94,4,FALSE,Cloudy,0.8,Avoid dyeing at low occupancy,Phantom load
+5/13/2025 0:00,Dyeing,69,6,39.19,High,7.1,0,3,FALSE,Cloudy,0.85,,Low occupancy
+5/13/2025 1:00,Finishing,60,17,30.13,Low,12.17,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,Low occupancy
+5/13/2025 2:00,Finishing,46,2,32.29,High,2.25,0,3,FALSE,Clear,0.85,,Phantom load
+5/13/2025 3:00,Dyeing,83,2,32.87,None,2.52,0,1,TRUE,Rain,0.95,Shutdown idle machines,Low occupancy
+5/13/2025 4:00,Finishing,100,15,40.91,High,17.97,0,3,FALSE,Clear,0.85,,HVAC misuse
+5/13/2025 5:00,Spinning,44,17,28.8,None,18.61,0,3,FALSE,Cloudy,0.85,,Low occupancy
+5/13/2025 6:00,Weaving,8,16,25.17,High,10.01,3,10,TRUE,Rain,0.5,Shutdown idle machines,Phantom load
+5/13/2025 7:00,Dyeing,11,18,43.02,Low,12.87,3.86,10,FALSE,Cloudy,0.5,,Low occupancy
+5/13/2025 8:00,Spinning,26,9,40.63,High,11.39,0,2,FALSE,Rain,0.9,,HVAC misuse
+5/13/2025 9:00,Finishing,85,2,40.97,None,1.55,0,9,FALSE,Cloudy,0.55,,Low occupancy
+5/13/2025 10:00,Dyeing,42,2,23.39,Low,1.97,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/13/2025 11:00,Weaving,48,16,27.79,Low,13.29,0,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/13/2025 12:00,Finishing,6,12,44.88,Low,13.04,3.91,5,FALSE,Clear,0.75,,Phantom load
+5/13/2025 13:00,Spinning,79,6,30.02,None,3.9,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/13/2025 14:00,Spinning,42,4,30.53,High,4.7,0,2,FALSE,Rain,0.9,,Old machine
+5/13/2025 15:00,Finishing,77,17,25.06,High,15.95,0,5,FALSE,Rain,0.75,,Old machine
+5/13/2025 16:00,Spinning,26,19,37.43,None,14.36,0,9,TRUE,Rain,0.55,Shutdown idle machines,Phantom load
+5/13/2025 17:00,Dyeing,87,9,22.23,High,8.8,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/13/2025 18:00,Dyeing,56,5,32.24,High,4.63,0,6,TRUE,Rain,0.7,Shutdown idle machines,HVAC misuse
+5/13/2025 19:00,Spinning,68,13,35.38,High,14.08,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,HVAC misuse
+5/13/2025 20:00,Finishing,78,16,24.19,High,12.92,0,7,FALSE,Clear,0.65,,Phantom load
+5/13/2025 21:00,Weaving,82,3,24.12,Low,2.79,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,HVAC misuse
+5/13/2025 22:00,Spinning,24,14,26.26,Low,15.91,0,2,FALSE,Cloudy,0.9,,Old machine
+5/13/2025 23:00,Weaving,58,11,42.14,None,12.51,0,4,FALSE,Clear,0.8,,Low occupancy
+5/14/2025 0:00,Dyeing,41,20,41.91,None,14.19,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Low occupancy
+5/14/2025 1:00,Dyeing,22,7,20.85,Low,6.34,0,5,FALSE,Rain,0.75,,Low occupancy
+5/14/2025 2:00,Weaving,80,19,38.7,None,13.18,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/14/2025 3:00,Finishing,31,20,41.22,High,22.6,0,4,FALSE,Clear,0.8,,Phantom load
+5/14/2025 4:00,Spinning,98,20,23.74,Low,12.37,0,10,FALSE,Cloudy,0.5,,Old machine
+5/14/2025 5:00,Dyeing,60,4,34.18,None,4.83,0,2,FALSE,Clear,0.9,,HVAC misuse
+5/14/2025 6:00,Dyeing,5,17,36.44,Low,20.88,6.26,2,TRUE,Clear,0.9,Avoid dyeing at low occupancy,HVAC misuse
+5/14/2025 7:00,Spinning,6,20,25.9,None,17.63,5.29,6,FALSE,Clear,0.7,,Phantom load
+5/14/2025 8:00,Dyeing,31,17,43.63,Low,21.97,0,2,FALSE,Clear,0.9,,Old machine
+5/14/2025 9:00,Spinning,8,8,20.37,Low,6.26,1.88,7,TRUE,Rain,0.65,Shutdown idle machines,Phantom load
+5/14/2025 10:00,Weaving,32,20,26.9,None,24.11,0,1,FALSE,Rain,0.95,,Low occupancy
+5/14/2025 11:00,Dyeing,21,7,33.38,High,8.87,0,1,TRUE,Clear,0.95,Shutdown idle machines,Low occupancy
+5/14/2025 12:00,Finishing,44,10,24.36,High,10.57,0,3,TRUE,Rain,0.85,Shutdown idle machines,Low occupancy
+5/14/2025 13:00,Finishing,46,11,21.45,High,10.02,0,5,FALSE,Cloudy,0.75,,HVAC misuse
+5/14/2025 14:00,Finishing,51,6,41.3,None,4.66,0,9,TRUE,Rain,0.55,Shutdown idle machines,Phantom load
+5/14/2025 15:00,Spinning,48,6,24.74,Low,4.12,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,HVAC misuse
+5/14/2025 16:00,Dyeing,14,8,28.14,None,6.66,2,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/14/2025 17:00,Finishing,69,14,24.42,None,16.55,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/14/2025 18:00,Spinning,12,2,44.53,High,2.6,0.78,2,TRUE,Cloudy,0.9,Shutdown idle machines,Old machine
+5/14/2025 19:00,Finishing,78,2,34.44,High,1.34,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/14/2025 20:00,Finishing,38,9,26.76,Low,10.84,0,1,FALSE,Rain,0.95,,Low occupancy
+5/14/2025 21:00,Finishing,40,4,37.14,None,4.66,0,3,TRUE,Clear,0.85,Shutdown idle machines,Old machine
+5/14/2025 22:00,Finishing,20,6,25.3,Low,3.76,1.13,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/14/2025 23:00,Spinning,81,3,39.73,High,3.77,0,2,FALSE,Rain,0.9,,Old machine
+5/15/2025 0:00,Spinning,3,17,36.79,Low,12.79,3.84,9,FALSE,Rain,0.55,,Old machine
+5/15/2025 1:00,Finishing,81,12,43.18,Low,15.46,0,2,FALSE,Rain,0.9,,Old machine
+5/15/2025 2:00,Spinning,19,4,24.56,None,2.49,0.75,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/15/2025 3:00,Spinning,60,14,28.36,High,13.48,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Low occupancy
+5/15/2025 4:00,Dyeing,9,2,43.27,Low,2.72,0.82,1,TRUE,Cloudy,0.95,Avoid dyeing at low occupancy,HVAC misuse
+5/15/2025 5:00,Dyeing,16,5,26.39,Low,4.74,1.42,5,FALSE,Clear,0.75,,Old machine
+5/15/2025 6:00,Spinning,77,4,30.78,None,4.97,0,1,TRUE,Rain,0.95,Shutdown idle machines,Low occupancy
+5/15/2025 7:00,Dyeing,83,12,43.43,Low,11.19,0,7,TRUE,Clear,0.65,Shutdown idle machines,Phantom load
+5/15/2025 8:00,Weaving,14,3,28.63,None,2.32,0.7,8,TRUE,Clear,0.6,Shutdown idle machines,Phantom load
+5/15/2025 9:00,Spinning,57,18,28.04,High,21.89,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,Low occupancy
+5/15/2025 10:00,Spinning,63,10,39.55,Low,9.07,0,7,TRUE,Clear,0.65,Shutdown idle machines,HVAC misuse
+5/15/2025 11:00,Finishing,54,7,30.59,None,6.4,0,6,TRUE,Clear,0.7,Shutdown idle machines,Low occupancy
+5/15/2025 12:00,Finishing,73,14,41.29,High,13.85,0,6,TRUE,Clear,0.7,Shutdown idle machines,Old machine
+5/15/2025 13:00,Finishing,99,13,24.45,Low,13.75,0,3,TRUE,Rain,0.85,Shutdown idle machines,Phantom load
+5/15/2025 14:00,Finishing,71,16,28.77,High,13.39,0,7,FALSE,Rain,0.65,,Low occupancy
+5/15/2025 15:00,Spinning,93,5,40.7,High,3.52,0,10,FALSE,Cloudy,0.5,,Low occupancy
+5/15/2025 16:00,Finishing,63,5,38.41,Low,5.54,0,4,TRUE,Clear,0.8,Shutdown idle machines,Old machine
+5/15/2025 17:00,Finishing,6,7,20.33,None,4.63,1.39,9,TRUE,Cloudy,0.55,Shutdown idle machines,Old machine
+5/15/2025 18:00,Spinning,16,11,26.42,High,7.65,2.29,9,TRUE,Rain,0.55,Shutdown idle machines,Phantom load
+5/15/2025 19:00,Weaving,59,10,44.72,High,10.85,0,5,TRUE,Rain,0.75,Shutdown idle machines,HVAC misuse
+5/15/2025 20:00,Weaving,13,11,39.31,Low,8.43,2.53,9,TRUE,Clear,0.55,Shutdown idle machines,Old machine
+5/15/2025 21:00,Weaving,96,9,30.43,Low,7.63,0,7,FALSE,Clear,0.65,,Low occupancy
+5/15/2025 22:00,Dyeing,92,8,28.62,High,8.23,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/15/2025 23:00,Spinning,42,13,32.12,None,10.31,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/16/2025 0:00,Spinning,18,20,33.61,High,21.38,6.41,4,TRUE,Cloudy,0.8,Shutdown idle machines,Old machine
+5/16/2025 1:00,Weaving,62,13,29.6,None,15.16,0,2,TRUE,Rain,0.9,Shutdown idle machines,HVAC misuse
+5/16/2025 2:00,Dyeing,37,9,21.01,Low,6.53,0,8,TRUE,Clear,0.6,Shutdown idle machines,Phantom load
+5/16/2025 3:00,Dyeing,2,4,41.25,None,4.8,1.44,3,TRUE,Cloudy,0.85,Avoid dyeing at low occupancy,Low occupancy
+5/16/2025 4:00,Weaving,96,13,29.97,None,13.52,0,4,FALSE,Cloudy,0.8,,HVAC misuse
+5/16/2025 5:00,Finishing,34,4,31.64,None,3.69,0,6,TRUE,Rain,0.7,Shutdown idle machines,Old machine
+5/16/2025 6:00,Spinning,83,7,38.5,Low,9.21,0,1,FALSE,Cloudy,0.95,,Phantom load
+5/16/2025 7:00,Dyeing,38,9,25.26,Low,10.15,0,2,TRUE,Clear,0.9,Shutdown idle machines,Phantom load
+5/16/2025 8:00,Dyeing,77,8,34.51,Low,8.61,0,4,FALSE,Clear,0.8,,HVAC misuse
+5/16/2025 9:00,Weaving,93,17,36.39,High,20.87,0,2,TRUE,Cloudy,0.9,Shutdown idle machines,Old machine
+5/16/2025 10:00,Dyeing,62,15,34.91,None,12.14,0,8,TRUE,Clear,0.6,Shutdown idle machines,Old machine
+5/16/2025 11:00,Finishing,18,6,35,High,6.48,1.94,4,FALSE,Rain,0.8,,HVAC misuse
+5/16/2025 12:00,Spinning,41,10,44.08,None,12.25,0,3,FALSE,Rain,0.85,,Phantom load
+5/16/2025 13:00,Weaving,5,6,42.47,High,7.27,2.18,3,TRUE,Rain,0.85,Shutdown idle machines,Phantom load
+5/16/2025 14:00,Spinning,52,8,27.51,None,8.16,0,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/16/2025 15:00,Dyeing,69,14,23.96,Low,15.62,0,2,TRUE,Clear,0.9,Shutdown idle machines,HVAC misuse
+5/16/2025 16:00,Weaving,61,14,35.35,None,10.42,0,9,FALSE,Cloudy,0.55,,Phantom load
+5/16/2025 17:00,Weaving,2,18,27.44,Low,13.76,4.13,8,FALSE,Rain,0.6,,Phantom load
+5/16/2025 18:00,Finishing,90,12,42.01,None,9.37,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,HVAC misuse
+5/16/2025 19:00,Dyeing,92,8,44.01,Low,6.91,0,8,TRUE,Clear,0.6,Shutdown idle machines,Phantom load
+5/16/2025 20:00,Dyeing,56,6,36.61,None,5.33,0,7,FALSE,Clear,0.65,,HVAC misuse
+5/16/2025 21:00,Weaving,31,8,39.46,High,10.6,0,1,FALSE,Cloudy,0.95,,Old machine
+5/16/2025 22:00,Spinning,82,18,41.96,Low,24.28,0,1,FALSE,Rain,0.95,,HVAC misuse
+5/16/2025 23:00,Dyeing,1,20,23.89,Low,14.87,4.46,8,FALSE,Clear,0.6,Avoid dyeing at low occupancy,Phantom load
+5/17/2025 0:00,Finishing,78,16,35.18,None,11.9,0,9,TRUE,Rain,0.55,Shutdown idle machines,Old machine
+5/17/2025 1:00,Spinning,5,6,31.77,Low,4.74,1.42,8,FALSE,Clear,0.6,,Low occupancy
+5/17/2025 2:00,Weaving,70,8,20.31,High,8.18,0,3,TRUE,Rain,0.85,Shutdown idle machines,HVAC misuse
+5/17/2025 3:00,Spinning,14,12,29.19,Low,14.73,4.42,1,FALSE,Cloudy,0.95,,HVAC misuse
+5/17/2025 4:00,Spinning,40,13,40.54,High,14.62,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/17/2025 5:00,Spinning,99,2,42.07,None,1.56,0,9,TRUE,Clear,0.55,Shutdown idle machines,Low occupancy
+5/17/2025 6:00,Spinning,8,10,42.76,High,13.56,4.07,1,FALSE,Clear,0.95,,Old machine
+5/17/2025 7:00,Weaving,99,10,40.23,None,10.52,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Phantom load
+5/17/2025 8:00,Dyeing,91,6,40.25,None,7.57,0,2,FALSE,Cloudy,0.9,,Old machine
+5/17/2025 9:00,Dyeing,84,2,37.41,High,1.65,0,8,TRUE,Rain,0.6,Shutdown idle machines,HVAC misuse
+5/17/2025 10:00,Dyeing,79,4,33.85,High,3.21,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Phantom load
+5/17/2025 11:00,Weaving,48,11,22.31,High,9.42,0,6,FALSE,Rain,0.7,,Old machine
+5/17/2025 12:00,Spinning,5,4,22.82,High,3.44,1.03,6,FALSE,Clear,0.7,,Old machine
+5/17/2025 13:00,Weaving,68,13,25.44,High,13.05,0,4,TRUE,Rain,0.8,Shutdown idle machines,Old machine
+5/17/2025 14:00,Dyeing,50,13,30.4,High,11.02,0,7,TRUE,Clear,0.65,Shutdown idle machines,Phantom load
+5/17/2025 15:00,Weaving,15,13,42.24,High,14.79,4.44,4,FALSE,Clear,0.8,,HVAC misuse
+5/17/2025 16:00,Dyeing,29,4,22.81,None,3.68,0,5,FALSE,Clear,0.75,,HVAC misuse
+5/17/2025 17:00,Dyeing,87,7,23.37,Low,5.18,0,8,FALSE,Clear,0.6,,Low occupancy
+5/17/2025 18:00,Finishing,43,19,35.91,Low,23.24,0,2,TRUE,Clear,0.9,Shutdown idle machines,Phantom load
+5/17/2025 19:00,Spinning,93,3,22.61,High,3.31,0,2,TRUE,Rain,0.9,Shutdown idle machines,Old machine
+5/17/2025 20:00,Dyeing,33,2,36.88,None,1.92,0,6,FALSE,Cloudy,0.7,,Phantom load
+5/17/2025 21:00,Weaving,73,16,38.61,None,11.09,0,10,FALSE,Cloudy,0.5,,HVAC misuse
+5/17/2025 22:00,Finishing,60,11,31.92,Low,7.26,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/17/2025 23:00,Spinning,50,20,27.23,Low,17.81,0,6,FALSE,Clear,0.7,,Low occupancy
+5/18/2025 0:00,Spinning,9,11,40.24,None,8.48,2.54,9,TRUE,Clear,0.55,Shutdown idle machines,HVAC misuse
+5/18/2025 1:00,Spinning,13,6,34.03,None,6.84,2.05,3,TRUE,Cloudy,0.85,Shutdown idle machines,Phantom load
+5/18/2025 2:00,Spinning,45,12,23.67,Low,12.61,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/18/2025 3:00,Spinning,78,18,36.04,Low,19.59,0,4,FALSE,Cloudy,0.8,,Old machine
+5/18/2025 4:00,Dyeing,54,15,43.65,Low,10.77,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/18/2025 5:00,Spinning,17,20,23.81,None,13.62,4.09,9,FALSE,Rain,0.55,,Low occupancy
+5/18/2025 6:00,Spinning,48,20,21.69,Low,12.17,0,10,FALSE,Cloudy,0.5,,Phantom load
+5/18/2025 7:00,Finishing,30,6,39.05,None,7.93,0,1,FALSE,Rain,0.95,,Phantom load
+5/18/2025 8:00,Weaving,62,16,29.3,None,18.62,0,2,TRUE,Clear,0.9,Shutdown idle machines,Phantom load
+5/18/2025 9:00,Spinning,12,7,42.59,Low,7.49,2.25,5,FALSE,Clear,0.75,,Old machine
+5/18/2025 10:00,Weaving,17,8,33.3,Low,5.87,1.76,9,TRUE,Clear,0.55,Shutdown idle machines,Phantom load
+5/18/2025 11:00,Finishing,22,17,24.34,High,16.91,0,4,FALSE,Rain,0.8,,Phantom load
+5/18/2025 12:00,Dyeing,75,3,33.83,Low,2.61,0,7,TRUE,Clear,0.65,Shutdown idle machines,Phantom load
+5/18/2025 13:00,Weaving,58,8,41.29,None,7.91,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,HVAC misuse
+5/18/2025 14:00,Weaving,22,20,30.89,High,14.4,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,Old machine
+5/18/2025 15:00,Dyeing,33,5,44.98,High,5.44,0,5,TRUE,Clear,0.75,Shutdown idle machines,Phantom load
+5/18/2025 16:00,Spinning,46,10,37.03,Low,11.65,0,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/18/2025 17:00,Dyeing,60,17,34.81,High,18.33,0,4,FALSE,Rain,0.8,,Old machine
+5/18/2025 18:00,Dyeing,22,10,39.92,None,9.79,0,6,FALSE,Clear,0.7,,Phantom load
+5/18/2025 19:00,Weaving,18,13,30.98,Low,8.51,2.55,10,TRUE,Rain,0.5,Shutdown idle machines,Phantom load
+5/18/2025 20:00,Weaving,41,6,42.43,Low,4.27,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/18/2025 21:00,Dyeing,22,15,42.94,Low,17.15,0,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/18/2025 22:00,Finishing,85,4,38.4,None,3.6,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,Old machine
+5/18/2025 23:00,Spinning,9,3,42.88,None,2.14,0.64,10,FALSE,Cloudy,0.5,,Low occupancy
+5/19/2025 0:00,Weaving,29,3,20.45,None,2.89,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/19/2025 1:00,Dyeing,82,5,32.29,Low,3.31,0,10,FALSE,Rain,0.5,,Low occupancy
+5/19/2025 2:00,Spinning,27,9,39.14,Low,9.39,0,5,FALSE,Rain,0.75,,HVAC misuse
+5/19/2025 3:00,Spinning,95,11,42.85,High,14.93,0,1,FALSE,Rain,0.95,,HVAC misuse
+5/19/2025 4:00,Finishing,72,2,34.19,High,1.34,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Old machine
+5/19/2025 5:00,Finishing,100,12,33.06,None,8.78,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,HVAC misuse
+5/19/2025 6:00,Weaving,25,6,37.97,None,7.45,0,2,TRUE,Rain,0.9,Shutdown idle machines,Phantom load
+5/19/2025 7:00,Weaving,9,13,28.14,None,14.16,4.25,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/19/2025 8:00,Dyeing,99,3,41.24,High,3.81,0,2,FALSE,Rain,0.9,,Phantom load
+5/19/2025 9:00,Dyeing,21,16,33.75,Low,13.91,0,7,FALSE,Cloudy,0.65,,Old machine
+5/19/2025 10:00,Weaving,91,2,39.64,None,2.65,0,1,TRUE,Rain,0.95,Shutdown idle machines,Old machine
+5/19/2025 11:00,Weaving,90,14,28.31,Low,11.68,0,7,FALSE,Clear,0.65,,Phantom load
+5/19/2025 12:00,Weaving,23,15,33.72,Low,19.06,0,1,FALSE,Rain,0.95,,Low occupancy
+5/19/2025 13:00,Weaving,34,2,37.16,Low,1.92,0,6,FALSE,Clear,0.7,,Old machine
+5/19/2025 14:00,Spinning,55,6,27.62,High,6.13,0,4,FALSE,Clear,0.8,,Low occupancy
+5/19/2025 15:00,Finishing,52,16,27.32,Low,12.22,0,8,FALSE,Cloudy,0.6,,HVAC misuse
+5/19/2025 16:00,Weaving,22,7,34.17,Low,8.92,0,1,FALSE,Clear,0.95,,Low occupancy
+5/19/2025 17:00,Dyeing,59,19,39.17,Low,13.22,0,10,TRUE,Clear,0.5,Shutdown idle machines,Phantom load
+5/19/2025 18:00,Finishing,8,5,32.2,High,5.62,1.69,3,FALSE,Clear,0.85,,Old machine
+5/19/2025 19:00,Spinning,20,20,22.17,High,15.88,4.76,7,FALSE,Rain,0.65,,Phantom load
+5/19/2025 20:00,Finishing,82,20,33.95,Low,20.09,0,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/19/2025 21:00,Spinning,84,9,28.19,High,10.96,0,1,TRUE,Rain,0.95,Shutdown idle machines,Phantom load
+5/19/2025 22:00,Dyeing,94,7,30.4,Low,7.3,0,4,FALSE,Rain,0.8,,Old machine
+5/19/2025 23:00,Dyeing,84,6,40.03,None,6.3,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Phantom load
+5/20/2025 0:00,Spinning,7,12,44.09,Low,12.1,3.63,6,FALSE,Clear,0.7,,Old machine
+5/20/2025 1:00,Finishing,96,4,34.89,None,3.51,0,7,FALSE,Cloudy,0.65,,Phantom load
+5/20/2025 2:00,Weaving,9,12,23.26,None,9.61,2.88,7,TRUE,Clear,0.65,Shutdown idle machines,Low occupancy
+5/20/2025 3:00,Dyeing,52,16,20.44,High,15.42,0,4,FALSE,Cloudy,0.8,,Phantom load
+5/20/2025 4:00,Finishing,45,5,37.97,High,5.86,0,3,FALSE,Clear,0.85,,HVAC misuse
+5/20/2025 5:00,Weaving,98,11,21.57,High,8.02,0,8,TRUE,Rain,0.6,Shutdown idle machines,Old machine
+5/20/2025 6:00,Dyeing,54,16,41.28,Low,21.48,0,1,FALSE,Clear,0.95,,HVAC misuse
+5/20/2025 7:00,Finishing,71,18,36.02,High,17.14,0,6,FALSE,Rain,0.7,,Old machine
+5/20/2025 8:00,Dyeing,39,11,35.49,Low,9.69,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,HVAC misuse
+5/20/2025 9:00,Spinning,54,16,23.3,None,9.86,0,10,FALSE,Cloudy,0.5,,Phantom load
+5/20/2025 10:00,Weaving,42,12,37.98,None,8.28,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/20/2025 11:00,Weaving,47,5,41.08,Low,5.29,0,5,FALSE,Cloudy,0.75,,Low occupancy
+5/20/2025 12:00,Spinning,81,16,38.68,Low,11.09,0,10,TRUE,Rain,0.5,Shutdown idle machines,Low occupancy
+5/20/2025 13:00,Weaving,17,17,30.55,High,13.32,4,8,FALSE,Clear,0.6,,Old machine
+5/20/2025 14:00,Spinning,41,9,34.05,None,7.84,0,7,TRUE,Rain,0.65,Shutdown idle machines,Phantom load
+5/20/2025 15:00,Weaving,100,5,43.32,High,5.02,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Low occupancy
+5/20/2025 16:00,Dyeing,29,2,30.17,None,1.95,0,5,FALSE,Cloudy,0.75,,HVAC misuse
+5/20/2025 17:00,Finishing,8,11,34.23,High,11.07,3.32,5,FALSE,Rain,0.75,,Old machine
+5/20/2025 18:00,Spinning,28,17,34.7,None,18.32,0,4,FALSE,Rain,0.8,,Old machine
+5/20/2025 19:00,Dyeing,24,5,29.4,High,4.53,0,6,FALSE,Cloudy,0.7,,HVAC misuse
+5/20/2025 20:00,Weaving,4,3,26.21,Low,1.89,0.57,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/20/2025 21:00,Dyeing,81,5,34.21,High,4.7,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Phantom load
+5/20/2025 22:00,Weaving,27,2,43.75,High,2.3,0,4,FALSE,Cloudy,0.8,,Phantom load
+5/20/2025 23:00,Dyeing,23,7,29.27,High,6.79,0,5,TRUE,Rain,0.75,Shutdown idle machines,Low occupancy
+5/21/2025 0:00,Weaving,77,20,30.85,High,23.55,0,2,TRUE,Rain,0.9,Shutdown idle machines,Phantom load
+5/21/2025 1:00,Weaving,15,11,36.78,Low,7.52,2.26,10,TRUE,Cloudy,0.5,Shutdown idle machines,Low occupancy
+5/21/2025 2:00,Spinning,28,18,40.45,None,22.75,0,2,TRUE,Rain,0.9,Shutdown idle machines,Low occupancy
+5/21/2025 3:00,Weaving,42,18,25.15,Low,14.64,0,7,FALSE,Rain,0.65,,HVAC misuse
+5/21/2025 4:00,Dyeing,17,15,34.5,Low,18.16,5.45,2,FALSE,Cloudy,0.9,,Old machine
+5/21/2025 5:00,Dyeing,90,15,22.43,High,11.94,0,7,FALSE,Rain,0.65,,HVAC misuse
+5/21/2025 6:00,Weaving,39,13,22.47,None,7.96,0,10,TRUE,Rain,0.5,Shutdown idle machines,Phantom load
+5/21/2025 7:00,Finishing,54,14,34.71,High,16.03,0,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/21/2025 8:00,Spinning,53,20,30.21,Low,18.23,0,6,FALSE,Rain,0.7,,HVAC misuse
+5/21/2025 9:00,Weaving,18,18,37.61,High,19.82,5.95,4,FALSE,Cloudy,0.8,,Phantom load
+5/21/2025 10:00,Spinning,77,6,36.02,None,4.9,0,8,FALSE,Cloudy,0.6,,HVAC misuse
+5/21/2025 11:00,Dyeing,20,19,25,High,17.81,5.34,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/21/2025 12:00,Spinning,39,6,23.86,None,4.83,0,7,TRUE,Rain,0.65,Shutdown idle machines,Phantom load
+5/21/2025 13:00,Spinning,61,3,34.27,Low,3.63,0,2,FALSE,Clear,0.9,,Old machine
+5/21/2025 14:00,Spinning,65,16,28.39,None,19.52,0,1,FALSE,Rain,0.95,,Low occupancy
+5/21/2025 15:00,Finishing,36,16,36.93,None,18.62,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/21/2025 16:00,Weaving,19,6,37.58,None,7.84,2.35,1,TRUE,Rain,0.95,Shutdown idle machines,HVAC misuse
+5/21/2025 17:00,Spinning,46,7,20.3,None,6.74,0,4,FALSE,Cloudy,0.8,,Old machine
+5/21/2025 18:00,Weaving,20,3,24.47,Low,2.05,0.61,9,FALSE,Clear,0.55,,Low occupancy
+5/21/2025 19:00,Weaving,38,4,36.03,Low,3.81,0,6,FALSE,Rain,0.7,,Low occupancy
+5/21/2025 20:00,Spinning,99,10,42.83,Low,7.14,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Low occupancy
+5/21/2025 21:00,Dyeing,42,5,20.31,Low,4.21,0,6,TRUE,Rain,0.7,Shutdown idle machines,HVAC misuse
+5/21/2025 22:00,Finishing,17,18,27.88,High,13.81,4.14,8,FALSE,Cloudy,0.6,,Phantom load
+5/21/2025 23:00,Weaving,17,17,36.15,Low,16.2,4.86,6,TRUE,Rain,0.7,Shutdown idle machines,HVAC misuse
+5/22/2025 0:00,Finishing,29,10,24.26,None,8.7,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Old machine
+5/22/2025 1:00,Dyeing,41,7,36.23,High,7.15,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,HVAC misuse
+5/22/2025 2:00,Spinning,30,17,28.95,High,20.83,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/22/2025 3:00,Spinning,81,14,23.9,None,12.14,0,6,TRUE,Clear,0.7,Shutdown idle machines,Old machine
+5/22/2025 4:00,Dyeing,87,15,29.13,None,16.46,0,3,FALSE,Clear,0.85,,HVAC misuse
+5/22/2025 5:00,Spinning,89,4,22.09,None,4.15,0,3,FALSE,Clear,0.85,,Low occupancy
+5/22/2025 6:00,Dyeing,76,3,26.25,None,3.41,0,2,FALSE,Rain,0.9,,HVAC misuse
+5/22/2025 7:00,Weaving,82,17,34.82,Low,13.75,0,8,FALSE,Rain,0.6,,Phantom load
+5/22/2025 8:00,Weaving,21,17,27.46,None,16.25,0,5,FALSE,Clear,0.75,,Low occupancy
+5/22/2025 9:00,Spinning,13,6,42.32,None,7.69,2.31,2,TRUE,Clear,0.9,Shutdown idle machines,Old machine
+5/22/2025 10:00,Weaving,100,7,42.17,Low,6.97,0,6,FALSE,Clear,0.7,,Low occupancy
+5/22/2025 11:00,Spinning,39,17,25.41,Low,20.25,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,Low occupancy
+5/22/2025 12:00,Weaving,72,14,44.71,None,10.13,0,10,FALSE,Rain,0.5,,Low occupancy
+5/22/2025 13:00,Finishing,60,14,43.85,None,15.1,0,5,TRUE,Clear,0.75,Shutdown idle machines,Old machine
+5/22/2025 14:00,Spinning,7,10,29.65,Low,11.02,3.31,3,TRUE,Clear,0.85,Shutdown idle machines,HVAC misuse
+5/22/2025 15:00,Spinning,70,16,28.42,High,14.38,0,6,TRUE,Clear,0.7,Shutdown idle machines,Phantom load
+5/22/2025 16:00,Finishing,74,17,32.08,Low,15.72,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/22/2025 17:00,Finishing,61,7,23.87,Low,8.24,0,1,FALSE,Clear,0.95,,Old machine
+5/22/2025 18:00,Weaving,47,19,29.09,High,15.94,0,7,FALSE,Clear,0.65,,Low occupancy
+5/22/2025 19:00,Dyeing,65,11,33.55,Low,7.35,0,10,TRUE,Clear,0.5,Shutdown idle machines,HVAC misuse
+5/22/2025 20:00,Finishing,26,9,43.24,High,8.38,0,7,TRUE,Rain,0.65,Shutdown idle machines,Low occupancy
+5/22/2025 21:00,Finishing,35,10,44.98,Low,13.77,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/22/2025 22:00,Finishing,49,7,32.02,Low,8.78,0,1,TRUE,Clear,0.95,Shutdown idle machines,Phantom load
+5/22/2025 23:00,Finishing,75,19,22.09,High,19.72,0,3,FALSE,Clear,0.85,,HVAC misuse
+5/23/2025 0:00,Dyeing,22,15,21.76,Low,17.35,0,1,TRUE,Rain,0.95,Shutdown idle machines,Low occupancy
+5/23/2025 1:00,Spinning,86,3,25.53,None,2.26,0,8,FALSE,Cloudy,0.6,,HVAC misuse
+5/23/2025 2:00,Dyeing,61,6,24.28,High,6.34,0,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/23/2025 3:00,Weaving,97,12,41.09,High,12.7,0,5,FALSE,Clear,0.75,,Low occupancy
+5/23/2025 4:00,Spinning,1,18,29.17,High,18.6,5.58,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/23/2025 5:00,Spinning,1,17,29.13,High,16.46,4.94,5,TRUE,Clear,0.75,Shutdown idle machines,Old machine
+5/23/2025 6:00,Finishing,27,20,23.89,High,12.39,0,10,FALSE,Cloudy,0.5,,Phantom load
+5/23/2025 7:00,Finishing,80,12,41.8,High,14.46,0,3,FALSE,Rain,0.85,,HVAC misuse
+5/23/2025 8:00,Dyeing,52,19,31.19,None,16.2,0,7,FALSE,Clear,0.65,,Low occupancy
+5/23/2025 9:00,Dyeing,89,9,24.73,None,6.17,0,9,TRUE,Rain,0.55,Shutdown idle machines,Old machine
+5/23/2025 10:00,Dyeing,54,10,36.94,None,8.22,0,8,FALSE,Clear,0.6,,Old machine
+5/23/2025 11:00,Finishing,90,6,41.11,None,5.5,0,7,TRUE,Rain,0.65,Shutdown idle machines,Old machine
+5/23/2025 12:00,Finishing,81,16,36.8,None,14.23,0,7,FALSE,Clear,0.65,,Low occupancy
+5/23/2025 13:00,Dyeing,16,2,44.99,Low,2.75,0.82,1,FALSE,Cloudy,0.95,,Old machine
+5/23/2025 14:00,Finishing,92,13,38.32,None,11.69,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,HVAC misuse
+5/23/2025 15:00,Weaving,62,3,27.14,None,1.91,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Old machine
+5/23/2025 16:00,Dyeing,62,2,37.53,Low,2.06,0,5,FALSE,Clear,0.75,,HVAC misuse
+5/23/2025 17:00,Finishing,12,8,27.42,None,6.12,1.84,8,TRUE,Clear,0.6,Shutdown idle machines,Low occupancy
+5/23/2025 18:00,Spinning,92,9,36.96,High,9.86,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/23/2025 19:00,Weaving,1,15,35.68,None,13.23,3.97,7,TRUE,Clear,0.65,Shutdown idle machines,Phantom load
+5/23/2025 20:00,Finishing,67,20,37.04,None,23.3,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/23/2025 21:00,Dyeing,21,8,40.69,High,7.88,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,HVAC misuse
+5/23/2025 22:00,Finishing,84,4,22.54,High,2.45,0,10,TRUE,Clear,0.5,Shutdown idle machines,Phantom load
+5/23/2025 23:00,Dyeing,38,14,21.56,High,11.06,0,7,FALSE,Clear,0.65,,Phantom load
+5/24/2025 0:00,Finishing,97,12,32.75,Low,8.76,0,9,FALSE,Clear,0.55,,HVAC misuse
+5/24/2025 1:00,Spinning,68,8,29.65,Low,9.85,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/24/2025 2:00,Finishing,58,15,22.74,Low,13.81,0,5,FALSE,Cloudy,0.75,,Phantom load
+5/24/2025 3:00,Spinning,75,4,22.57,None,3.43,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,Old machine
+5/24/2025 4:00,Finishing,89,8,29.42,High,5.18,0,10,FALSE,Cloudy,0.5,,Low occupancy
+5/24/2025 5:00,Dyeing,97,20,27.05,None,15.25,0,8,FALSE,Cloudy,0.6,,Low occupancy
+5/24/2025 6:00,Finishing,16,20,38.22,High,15.2,4.56,9,FALSE,Clear,0.55,,Old machine
+5/24/2025 7:00,Weaving,50,13,34.41,None,11.36,0,7,FALSE,Clear,0.65,,Old machine
+5/24/2025 8:00,Weaving,90,10,43,Low,9.29,0,7,TRUE,Clear,0.65,Shutdown idle machines,HVAC misuse
+5/24/2025 9:00,Spinning,39,20,21.51,None,17.01,0,6,FALSE,Rain,0.7,,Phantom load
+5/24/2025 10:00,Dyeing,79,7,37.25,Low,7.21,0,5,TRUE,Rain,0.75,Shutdown idle machines,HVAC misuse
+5/24/2025 11:00,Finishing,37,15,38.91,Low,17.71,0,3,FALSE,Cloudy,0.85,,Old machine
+5/24/2025 12:00,Dyeing,58,10,27.55,High,11.48,0,2,TRUE,Clear,0.9,Shutdown idle machines,HVAC misuse
+5/24/2025 13:00,Weaving,23,16,37.51,Low,18.7,0,3,TRUE,Clear,0.85,Shutdown idle machines,Low occupancy
+5/24/2025 14:00,Weaving,97,16,35.13,Low,18.38,0,3,TRUE,Rain,0.85,Shutdown idle machines,Low occupancy
+5/24/2025 15:00,Weaving,19,4,42.13,None,4.83,1.45,3,TRUE,Cloudy,0.85,Shutdown idle machines,Low occupancy
+5/24/2025 16:00,Finishing,38,11,38.99,Low,13,0,3,TRUE,Rain,0.85,Shutdown idle machines,Low occupancy
+5/24/2025 17:00,Spinning,76,14,37.73,Low,16.39,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,Phantom load
+5/24/2025 18:00,Spinning,78,5,37.9,High,4.14,0,8,FALSE,Rain,0.6,,HVAC misuse
+5/24/2025 19:00,Weaving,20,4,24.13,High,3.97,1.19,4,TRUE,Cloudy,0.8,Shutdown idle machines,HVAC misuse
+5/24/2025 20:00,Spinning,48,18,30.53,None,14.1,0,8,TRUE,Rain,0.6,Shutdown idle machines,HVAC misuse
+5/24/2025 21:00,Dyeing,40,15,21.8,None,10.05,0,9,FALSE,Rain,0.55,,HVAC misuse
+5/24/2025 22:00,Spinning,66,19,23.28,Low,16.4,0,6,TRUE,Clear,0.7,Shutdown idle machines,Low occupancy
+5/24/2025 23:00,Weaving,9,9,41.54,High,10.83,3.25,3,FALSE,Cloudy,0.85,,Phantom load
+5/25/2025 0:00,Finishing,31,2,43.74,High,2.44,0,3,FALSE,Clear,0.85,,Low occupancy
+5/25/2025 1:00,Dyeing,73,19,41.78,None,17.51,0,7,FALSE,Clear,0.65,,Low occupancy
+5/25/2025 2:00,Spinning,84,16,27.9,High,10.23,0,10,TRUE,Clear,0.5,Shutdown idle machines,Phantom load
+5/25/2025 3:00,Weaving,84,3,43.77,None,2.37,0,9,FALSE,Clear,0.55,,Low occupancy
+5/25/2025 4:00,Dyeing,55,2,25.28,Low,1.25,0,10,TRUE,Clear,0.5,Shutdown idle machines,Low occupancy
+5/25/2025 5:00,Dyeing,1,8,25.54,High,6.53,1.96,7,TRUE,Clear,0.65,Avoid dyeing at low occupancy,Low occupancy
+5/25/2025 6:00,Weaving,20,14,29.16,High,13.56,4.07,5,TRUE,Clear,0.75,Shutdown idle machines,Old machine
+5/25/2025 7:00,Finishing,3,20,25.6,Low,23.86,7.16,1,FALSE,Rain,0.95,,HVAC misuse
+5/25/2025 8:00,Dyeing,72,14,34.3,Low,13.16,0,6,FALSE,Clear,0.7,,Phantom load
+5/25/2025 9:00,Dyeing,14,12,24.82,High,11.98,3.59,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/25/2025 10:00,Spinning,63,3,21.33,High,3.09,0,3,TRUE,Rain,0.85,Shutdown idle machines,HVAC misuse
+5/25/2025 11:00,Spinning,0,6,29.21,None,5.43,1.63,6,FALSE,Cloudy,0.7,,Low occupancy
+5/25/2025 12:00,Weaving,83,5,36.72,High,4.1,0,8,FALSE,Cloudy,0.6,,Old machine
+5/25/2025 13:00,Weaving,55,10,41.04,Low,10.58,0,5,FALSE,Clear,0.75,,Old machine
+5/25/2025 14:00,Spinning,80,7,26.16,High,4.42,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Low occupancy
+5/25/2025 15:00,Spinning,62,3,30.35,High,2.35,0,8,TRUE,Rain,0.6,Shutdown idle machines,Low occupancy
+5/25/2025 16:00,Dyeing,20,11,33.78,None,8.09,2.43,9,TRUE,Cloudy,0.55,Shutdown idle machines,Low occupancy
+5/25/2025 17:00,Weaving,79,6,28.8,High,6.57,0,3,FALSE,Rain,0.85,,Phantom load
+5/25/2025 18:00,Spinning,61,2,30.18,Low,1.69,0,7,FALSE,Rain,0.65,,Old machine
+5/25/2025 19:00,Spinning,100,2,30.69,Low,1.7,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,HVAC misuse
+5/25/2025 20:00,Dyeing,28,16,32.77,Low,13.81,0,7,FALSE,Cloudy,0.65,,Old machine
+5/25/2025 21:00,Spinning,32,4,29.25,None,4.39,0,3,TRUE,Rain,0.85,Shutdown idle machines,Old machine
+5/25/2025 22:00,Dyeing,11,12,26,Low,10.58,3.17,6,FALSE,Cloudy,0.7,,Phantom load
+5/25/2025 23:00,Weaving,37,20,44.57,Low,24.58,0,3,TRUE,Clear,0.85,Shutdown idle machines,Old machine
+5/26/2025 0:00,Weaving,95,10,22.76,High,9.82,0,4,FALSE,Rain,0.8,,HVAC misuse
+5/26/2025 1:00,Finishing,71,4,32.95,Low,3.46,0,7,FALSE,Cloudy,0.65,,HVAC misuse
+5/26/2025 2:00,Finishing,27,17,23.75,Low,14.73,0,6,TRUE,Rain,0.7,Shutdown idle machines,HVAC misuse
+5/26/2025 3:00,Weaving,38,6,26.83,Low,5.33,0,6,FALSE,Clear,0.7,,Low occupancy
+5/26/2025 4:00,Weaving,21,18,21.44,High,20.77,0,1,FALSE,Rain,0.95,,Old machine
+5/26/2025 5:00,Dyeing,3,4,24.85,Low,4.49,1.35,2,TRUE,Cloudy,0.9,Avoid dyeing at low occupancy,Low occupancy
+5/26/2025 6:00,Spinning,63,3,28.12,None,2.31,0,8,FALSE,Cloudy,0.6,,Old machine
+5/26/2025 7:00,Finishing,33,10,31.56,None,10.52,0,4,FALSE,Rain,0.8,,Low occupancy
+5/26/2025 8:00,Weaving,20,12,24.64,Low,13.46,4.04,2,FALSE,Rain,0.9,,Low occupancy
+5/26/2025 9:00,Dyeing,44,9,22.47,High,6.61,0,8,TRUE,Clear,0.6,Shutdown idle machines,Old machine
+5/26/2025 10:00,Spinning,55,20,38.74,High,23.59,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,HVAC misuse
+5/26/2025 11:00,Dyeing,40,9,34.28,High,8.46,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,HVAC misuse
+5/26/2025 12:00,Weaving,86,14,25.11,None,14.89,0,3,FALSE,Clear,0.85,,Phantom load
+5/26/2025 13:00,Dyeing,27,17,38.14,None,18.79,0,4,TRUE,Clear,0.8,Shutdown idle machines,Old machine
+5/26/2025 14:00,Finishing,32,3,21.67,Low,2.37,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,HVAC misuse
+5/26/2025 15:00,Finishing,28,17,22.94,Low,12.54,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/26/2025 16:00,Finishing,52,3,44.06,High,3.46,0,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/26/2025 17:00,Weaving,48,3,39.1,High,3.13,0,5,FALSE,Clear,0.75,,Phantom load
+5/26/2025 18:00,Finishing,51,12,29.06,Low,11.62,0,5,TRUE,Clear,0.75,Shutdown idle machines,Low occupancy
+5/26/2025 19:00,Spinning,57,2,21.53,None,1.7,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/26/2025 20:00,Weaving,12,19,33.13,None,16.44,4.93,7,TRUE,Cloudy,0.65,Shutdown idle machines,Old machine
+5/26/2025 21:00,Dyeing,25,6,34.3,None,5.24,0,7,FALSE,Clear,0.65,,HVAC misuse
+5/26/2025 22:00,Dyeing,1,4,43.67,Low,3.16,0.95,9,FALSE,Clear,0.55,Avoid dyeing at low occupancy,HVAC misuse
+5/26/2025 23:00,Weaving,39,20,21.69,High,12.17,0,10,FALSE,Rain,0.5,,Phantom load
+5/27/2025 0:00,Finishing,25,6,32.27,Low,6.75,0,3,FALSE,Rain,0.85,,HVAC misuse
+5/27/2025 1:00,Finishing,64,8,38.17,High,8.84,0,4,TRUE,Rain,0.8,Shutdown idle machines,Old machine
+5/27/2025 2:00,Dyeing,7,11,21.44,Low,12.69,3.81,1,FALSE,Clear,0.95,Avoid dyeing at low occupancy,Phantom load
+5/27/2025 3:00,Weaving,94,7,38.93,Low,7.78,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Old machine
+5/27/2025 4:00,Weaving,95,7,38.37,None,7.75,0,4,TRUE,Clear,0.8,Shutdown idle machines,HVAC misuse
+5/27/2025 5:00,Weaving,15,12,40.18,High,15.98,4.79,1,TRUE,Clear,0.95,Shutdown idle machines,Old machine
+5/27/2025 6:00,Weaving,53,18,32.07,Low,20.21,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,Old machine
+5/27/2025 7:00,Dyeing,26,17,44.75,High,22.15,0,2,FALSE,Clear,0.9,,Phantom load
+5/27/2025 8:00,Spinning,96,13,33.97,High,11.32,0,7,FALSE,Rain,0.65,,HVAC misuse
+5/27/2025 9:00,Spinning,14,6,40.99,High,4.23,1.27,10,TRUE,Cloudy,0.5,Shutdown idle machines,HVAC misuse
+5/27/2025 10:00,Dyeing,16,20,38.2,High,19.35,5.81,6,TRUE,Rain,0.7,Shutdown idle machines,Old machine
+5/27/2025 11:00,Weaving,49,12,43.97,None,12.09,0,6,FALSE,Rain,0.7,,HVAC misuse
+5/27/2025 12:00,Finishing,78,3,36.25,High,2.86,0,6,FALSE,Rain,0.7,,Old machine
+5/27/2025 13:00,Weaving,39,4,28.07,None,2.56,0,10,FALSE,Clear,0.5,,Phantom load
+5/27/2025 14:00,Dyeing,8,2,34.03,High,2.28,0.68,3,FALSE,Clear,0.85,Avoid dyeing at low occupancy,Phantom load
+5/27/2025 15:00,Dyeing,33,9,39.66,High,6.91,0,9,FALSE,Clear,0.55,,Old machine
+5/27/2025 16:00,Weaving,37,10,21.04,None,6.66,0,9,FALSE,Clear,0.55,,Old machine
+5/27/2025 17:00,Dyeing,71,13,28.39,High,12.52,0,5,FALSE,Rain,0.75,,HVAC misuse
+5/27/2025 18:00,Dyeing,70,3,27.94,None,2.69,0,6,TRUE,Cloudy,0.7,Shutdown idle machines,HVAC misuse
+5/27/2025 19:00,Spinning,70,16,21.47,None,14.58,0,5,FALSE,Cloudy,0.75,,Low occupancy
+5/27/2025 20:00,Dyeing,60,3,41.44,Low,3.18,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Low occupancy
+5/27/2025 21:00,Dyeing,76,6,20.17,Low,3.61,0,10,TRUE,Clear,0.5,Shutdown idle machines,Low occupancy
+5/27/2025 22:00,Dyeing,34,6,20.73,None,3.62,0,10,TRUE,Clear,0.5,Shutdown idle machines,Low occupancy
+5/27/2025 23:00,Spinning,33,10,39.89,Low,12.59,0,2,TRUE,Rain,0.9,Shutdown idle machines,HVAC misuse
+5/28/2025 0:00,Dyeing,46,17,34.59,High,13.73,0,8,FALSE,Rain,0.6,,Old machine
+5/28/2025 1:00,Weaving,89,20,44.07,None,14.41,0,10,TRUE,Cloudy,0.5,Shutdown idle machines,Phantom load
+5/28/2025 2:00,Weaving,32,20,38.25,High,22.12,0,4,FALSE,Clear,0.8,,Old machine
+5/28/2025 3:00,Weaving,99,3,29.51,High,2.14,0,9,FALSE,Rain,0.55,,Low occupancy
+5/28/2025 4:00,Weaving,28,2,20.02,Low,1.92,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Low occupancy
+5/28/2025 5:00,Weaving,13,20,37.27,Low,23.34,7,3,FALSE,Rain,0.85,,Phantom load
+5/28/2025 6:00,Spinning,57,4,43.58,High,4.31,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Low occupancy
+5/28/2025 7:00,Finishing,82,6,23.82,High,5.94,0,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/28/2025 8:00,Finishing,16,11,43.44,Low,14.99,4.5,1,FALSE,Cloudy,0.95,,Low occupancy
+5/28/2025 9:00,Weaving,40,11,23.84,High,12.26,0,2,FALSE,Clear,0.9,,Old machine
+5/28/2025 10:00,Dyeing,41,12,41.47,High,11.04,0,7,FALSE,Cloudy,0.65,,Phantom load
+5/28/2025 11:00,Finishing,56,13,40.08,None,13.66,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Low occupancy
+5/28/2025 12:00,Weaving,87,7,29.79,High,7.72,0,3,TRUE,Clear,0.85,Shutdown idle machines,HVAC misuse
+5/28/2025 13:00,Weaving,57,8,25.9,Low,6.04,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/28/2025 14:00,Weaving,79,4,40.73,Low,3.38,0,8,TRUE,Cloudy,0.6,Shutdown idle machines,Old machine
+5/28/2025 15:00,Dyeing,0,9,23.55,None,10.56,3.17,1,TRUE,Rain,0.95,Avoid dyeing at low occupancy,Old machine
+5/28/2025 16:00,Dyeing,57,16,26.51,None,13.16,0,7,FALSE,Clear,0.65,,Old machine
+5/28/2025 17:00,Dyeing,71,8,37.74,High,9.37,0,3,TRUE,Clear,0.85,Shutdown idle machines,Phantom load
+5/28/2025 18:00,Weaving,42,8,25.26,High,9.52,0,1,FALSE,Clear,0.95,,HVAC misuse
+5/28/2025 19:00,Weaving,51,4,26.94,Low,2.79,0,9,TRUE,Clear,0.55,Shutdown idle machines,Phantom load
+5/28/2025 20:00,Weaving,31,12,28.46,Low,9.25,0,8,FALSE,Rain,0.6,,HVAC misuse
+5/28/2025 21:00,Weaving,1,12,44.37,None,13.86,4.16,4,TRUE,Clear,0.8,Shutdown idle machines,HVAC misuse
+5/28/2025 22:00,Spinning,20,11,26.31,Low,9.03,2.71,7,FALSE,Clear,0.65,,Low occupancy
+5/28/2025 23:00,Dyeing,6,6,26.59,Low,4.94,1.48,7,TRUE,Rain,0.65,Avoid dyeing at low occupancy,Old machine
+5/29/2025 0:00,Spinning,25,11,22.9,Low,11.49,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/29/2025 1:00,Finishing,9,17,37.31,Low,19.84,5.95,3,TRUE,Cloudy,0.85,Shutdown idle machines,Low occupancy
+5/29/2025 2:00,Dyeing,17,16,20.54,None,10.61,3.18,9,FALSE,Clear,0.55,,Phantom load
+5/29/2025 3:00,Weaving,9,13,27.71,Low,14.94,4.48,2,TRUE,Cloudy,0.9,Shutdown idle machines,Phantom load
+5/29/2025 4:00,Weaving,89,8,31.39,None,9.46,0,2,TRUE,Clear,0.9,Shutdown idle machines,Old machine
+5/29/2025 5:00,Finishing,44,12,28.47,Low,13.1,0,3,FALSE,Rain,0.85,,Phantom load
+5/29/2025 6:00,Weaving,74,3,40.92,None,2.75,0,7,TRUE,Clear,0.65,Shutdown idle machines,HVAC misuse
+5/29/2025 7:00,Weaving,48,11,26.75,Low,13.25,0,1,FALSE,Rain,0.95,,Low occupancy
+5/29/2025 8:00,Weaving,54,4,42.19,None,3.41,0,8,TRUE,Clear,0.6,Shutdown idle machines,Phantom load
+5/29/2025 9:00,Weaving,43,9,23.2,Low,8.87,0,4,FALSE,Cloudy,0.8,,HVAC misuse
+5/29/2025 10:00,Finishing,20,7,43.86,High,9.06,2.72,2,FALSE,Cloudy,0.9,,HVAC misuse
+5/29/2025 11:00,Dyeing,53,19,37.14,High,14.33,0,9,TRUE,Cloudy,0.55,Shutdown idle machines,Low occupancy
+5/29/2025 12:00,Spinning,74,20,41,None,21.15,0,5,TRUE,Cloudy,0.75,Shutdown idle machines,Phantom load
+5/29/2025 13:00,Weaving,47,8,29.13,None,9.81,0,1,FALSE,Rain,0.95,,Phantom load
+5/29/2025 14:00,Weaving,81,9,20.32,High,7.58,0,6,FALSE,Rain,0.7,,HVAC misuse
+5/29/2025 15:00,Finishing,80,16,42.51,High,20.52,0,2,FALSE,Clear,0.9,,Phantom load
+5/29/2025 16:00,Weaving,43,13,23.61,High,9.64,0,8,FALSE,Clear,0.6,,Phantom load
+5/29/2025 17:00,Spinning,28,11,30.62,Low,13.65,0,1,TRUE,Clear,0.95,Shutdown idle machines,Low occupancy
+5/29/2025 18:00,Dyeing,18,9,31.72,Low,8.89,2.67,5,FALSE,Clear,0.75,,Low occupancy
+5/29/2025 19:00,Spinning,4,12,24.05,High,8.19,2.46,9,TRUE,Cloudy,0.55,Shutdown idle machines,Phantom load
+5/29/2025 20:00,Dyeing,35,7,20.27,None,6.74,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/29/2025 21:00,Finishing,40,7,30.97,None,5.96,0,7,TRUE,Cloudy,0.65,Shutdown idle machines,Low occupancy
+5/29/2025 22:00,Weaving,40,6,34.14,High,5.23,0,7,FALSE,Clear,0.65,,Low occupancy
+5/29/2025 23:00,Weaving,15,5,28.74,None,3.54,1.06,9,FALSE,Rain,0.55,,Old machine
+5/30/2025 0:00,Dyeing,4,16,26.59,Low,17.22,5.17,3,TRUE,Clear,0.85,Avoid dyeing at low occupancy,Low occupancy
+5/30/2025 1:00,Dyeing,65,11,41.74,Low,10.91,0,6,FALSE,Cloudy,0.7,,Low occupancy
+5/30/2025 2:00,Finishing,59,9,26.79,High,9.7,0,3,TRUE,Cloudy,0.85,Shutdown idle machines,HVAC misuse
+5/30/2025 3:00,Dyeing,26,13,37.85,None,9.86,0,9,FALSE,Cloudy,0.55,,HVAC misuse
+5/30/2025 4:00,Finishing,48,19,24.18,Low,22.42,0,1,TRUE,Clear,0.95,Shutdown idle machines,Phantom load
+5/30/2025 5:00,Dyeing,83,8,40.33,None,6.74,0,8,TRUE,Clear,0.6,Shutdown idle machines,Phantom load
+5/30/2025 6:00,Dyeing,74,19,28.62,High,19.55,0,4,TRUE,Cloudy,0.8,Shutdown idle machines,Phantom load
+5/30/2025 7:00,Weaving,48,5,27.57,Low,5.74,0,2,FALSE,Rain,0.9,,Old machine
+5/30/2025 8:00,Spinning,40,16,21.72,None,13.63,0,6,TRUE,Clear,0.7,Shutdown idle machines,HVAC misuse
+5/30/2025 9:00,Weaving,11,3,29.97,High,2.92,0.88,5,TRUE,Rain,0.75,Shutdown idle machines,Low occupancy
+5/30/2025 10:00,Weaving,54,5,26.75,High,3.49,0,9,FALSE,Clear,0.55,,HVAC misuse
+5/30/2025 11:00,Weaving,31,17,30.95,Low,14.47,0,7,TRUE,Rain,0.65,Shutdown idle machines,Old machine
+5/30/2025 12:00,Dyeing,71,17,30.49,None,14.42,0,7,FALSE,Clear,0.65,,Low occupancy
+5/30/2025 13:00,Finishing,41,4,41.71,Low,4.53,0,4,TRUE,Rain,0.8,Shutdown idle machines,HVAC misuse
+5/30/2025 14:00,Weaving,56,10,42.59,High,13.55,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,Old machine
+5/30/2025 15:00,Spinning,84,14,36.56,None,9.56,0,10,FALSE,Cloudy,0.5,,HVAC misuse
+5/30/2025 16:00,Dyeing,12,3,41.25,None,3.81,1.14,2,FALSE,Cloudy,0.9,,Low occupancy
+5/30/2025 17:00,Weaving,73,12,41.67,None,12.75,0,5,FALSE,Clear,0.75,,Old machine
+5/30/2025 18:00,Dyeing,65,12,41.77,High,14.46,0,3,FALSE,Cloudy,0.85,,HVAC misuse
+5/30/2025 19:00,Finishing,96,14,32.47,High,14.84,0,4,FALSE,Rain,0.8,,HVAC misuse
+5/30/2025 20:00,Spinning,31,5,31.57,High,6.25,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,Phantom load
+5/30/2025 21:00,Dyeing,37,17,23.61,None,19.96,0,1,TRUE,Cloudy,0.95,Shutdown idle machines,HVAC misuse
+5/30/2025 22:00,Spinning,76,7,43.04,Low,6.51,0,7,TRUE,Rain,0.65,Shutdown idle machines,HVAC misuse
+5/30/2025 23:00,Weaving,6,9,44.67,High,8.46,2.54,7,FALSE,Cloudy,0.65,,Low occupancy

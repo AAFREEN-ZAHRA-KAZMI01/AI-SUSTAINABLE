@@ -1,0 +1,6 @@
+energy_budget:
+  dyeing_max_kwh_per_day: 1500
+
+ai_system_cost: 500000  # in Rs.
+
+estimated_monthly_savings: 125000  # in Rs.
